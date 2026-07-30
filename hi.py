@@ -37,3 +37,13 @@
 # print(prod_config.max_tokens)  # 1000
 # print(dev_config.api_key)      # sk-dev-key
 # print(prod_config.base_url)    # https://api.openai.com/v1
+
+
+#---------------------------
+import os
+
+# Read from environment
+api_key = os.environ.get('API_KEY')
+database = os.environ.get('DATABASE_NAME', 'default.db')
+
+print(f"Using database: {api_key}")
