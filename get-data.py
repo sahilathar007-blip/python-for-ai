@@ -57,7 +57,7 @@ print(df.head())
 print(df.describe())
 
 import os
-
+ 
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
