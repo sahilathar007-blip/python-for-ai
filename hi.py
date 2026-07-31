@@ -48,10 +48,8 @@ database = os.environ.get("DATABASE_NAME", "default.db")
 
 print(f"Using database: {api_key}")
 
-# -----------
 
-
-# ---------------------------
+# --------------------------
 
 import os
 
