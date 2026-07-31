@@ -1,7 +1,7 @@
 # Date and time
 import datetime
 
-today = datetime.date.today()
+today = datetime.date.today()  # noqa: DTZ011
 print(today)  # 2024-01-15
 
 
@@ -13,7 +13,7 @@ print(result)  # 4.0
 # Date and time
 import datetime
 
-today = datetime.date.today()
+today = datetime.date.today()  # noqa: DTZ011
 print(today)  # 2024-01-15
 
 # Import entire module
