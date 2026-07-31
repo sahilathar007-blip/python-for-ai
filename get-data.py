@@ -1,15 +1,18 @@
 # Date and time
 import datetime
+
 today = datetime.date.today()
 print(today)  # 2024-01-15
 
 
 import math
+
 result = math.sqrt(16)
 print(result)  # 4.0
 
 # Date and time
 import datetime
+
 today = datetime.date.today()
 print(today)  # 2024-01-15
 
@@ -34,8 +37,8 @@ daily_data = data["daily"]
 
 print(daily_data)
 
-import requests
 import pandas as pd
+import requests
 
 url = "https://api.open-meteo.com/v1/forecast?latitude=28.84&longitude=78.77&daily=temperature_2m_max,temperature_2m_min&timezone=auto"
 
@@ -53,11 +56,11 @@ print(df)
 print(df.head())
 print(df.describe())
 
-import requests
-import pandas as pd
-import matplotlib.pyplot as plt
 import os
 
+import matplotlib.pyplot as plt
+import pandas as pd
+import requests
 
 url = "https://api.open-meteo.com/v1/forecast?latitude=28.84&longitude=78.77&daily=temperature_2m_max,temperature_2m_min&timezone=auto"
 
